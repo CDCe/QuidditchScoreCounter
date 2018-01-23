@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
         foulsTeamA = savedInstanceState.getInt("foulsTeamA");
         foulsTeamB = savedInstanceState.getInt("foulsTeamB");
 
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
+        displayFoulsForTeamA(foulsTeamA);
+        displayFoulsForTeamB(foulsTeamB);
     }
 
     /**
