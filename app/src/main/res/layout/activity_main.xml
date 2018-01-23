@@ -2,7 +2,6 @@
 <RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/button"
+        android:baselineAligned="false"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -27,8 +27,9 @@
                 android:background="@android:color/transparent"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
+                android:inputType="text"
                 android:padding="8dp"
-                android:text="Gryffindor"
+                android:text="@string/Gryffindor"
                 android:textColor="	#d3a625"
                 android:textSize="36sp" />
 
@@ -38,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -50,7 +51,7 @@
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#ae0001"
                 android:onClick="tenPointsToTeamA"
-                android:text="Goal"
+                android:text="@string/goal"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
@@ -60,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -73,7 +74,7 @@
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#ae0001"
                 android:onClick="oneFoulToTeamA"
-                android:text="Fouls"
+                android:text="@string/fouls"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
@@ -104,8 +105,9 @@
                 android:background="@android:color/transparent"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
+                android:inputType="text"
                 android:padding="8dp"
-                android:text="Slytherin"
+                android:text="@string/Slytherin"
                 android:textColor="#5d5d5d"
                 android:textSize="36sp" />
 
@@ -115,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -127,7 +129,7 @@
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#2a623d"
                 android:onClick="tenPointsToTeamB"
-                android:text="Goal"
+                android:text="@string/goal"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
@@ -137,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -149,7 +151,7 @@
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#2a623d"
                 android:onClick="oneFoulToTeamB"
-                android:text="Fouls"
+                android:text="@string/fouls"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
@@ -179,7 +181,7 @@
         android:backgroundTint="#5d5d5d"
         android:gravity="center"
         android:onClick="scoreReset"
-        android:text="Rematch"
+        android:text="@string/rematch"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 

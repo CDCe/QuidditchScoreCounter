@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Quidditch Score Counter</string>
+    <string name="goal">Goal</string>
+    <string name="fouls">Fouls</string>
+    <string name="rematch">Rematch</string>
+    <string name="zero">0</string>
+    <string name="Gryffindor">Gryffindor</string>
+    <string name="Slytherin">Slytherin</string>
 </resources>
+
